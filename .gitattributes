@@ -1,0 +1,19 @@
+# 모든 텍스트 파일에 대해 OS 별 줄바꿈 자동 처리
+* text=auto
+
+# Windows와 충돌 방지를 위해 명시적으로 CRLF 사용 방지
+*.js eol=lf
+*.ts eol=lf
+*.jsx eol=lf
+*.tsx eol=lf
+*.css eol=lf
+*.html eol=lf
+*.json eol=lf
+
+# 이진 파일은 자동 변환하지 않음
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.exe binary
