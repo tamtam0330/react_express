@@ -1,13 +1,26 @@
-//저장할때마다 eslint 적용
 {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit"
-    },
-    "eslint.validate": [
-      "javascript",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact"
-    ],
-    "editor.formatOnSave": true,  // 자동으로 포맷팅을 ESLint가 담당하도록 설정
- }
+  // 저장할 때 ESLint 규칙을 적용해 자동으로 문제 수정
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // ESLint가 검증할 파일 유형 지정
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // 저장 시 자동 포맷팅 활성화
+  "editor.formatOnSave": true,
+
+  // Emmet을 JS 및 JSX 파일에서도 사용하도록 설정
+  "emmet.includeLanguages": {
+    "javascript": "html",
+    "javascriptreact": "html"
+  },
+
+  // Tab 키로 Emmet 확장 트리거
+  "emmet.triggerExpansionOnTab": true
+}

@@ -33,6 +33,7 @@ export default [
             'no-trailing-spaces': 'error', //불필요한 공백 제거
             'comma-dangle': ['error', 'always-multiline'], //후행 콤마 사용
             'curly': ['error', 'all'], //모든 조건문에 중괄호 사용 강제
+            'react/react-in-jsx-scope': 'off',
         },
     },
 ];

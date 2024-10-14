@@ -1,0 +1,12 @@
+.timeline{
+    display:flex;
+    flex-direction: row;
+}
+
+/* 게시물 파트를 left(본문)와 right(추천)로 7:3 분할 */
+.timeline__left{
+    flex: 0.7;
+}
+.timeline__right{
+    flex: 0.3;
+}
