@@ -1,0 +1,12 @@
+.homepage{
+    display:flex;
+    flex-direction:row;
+}
+
+/* 홈페이지를 nav와 timeline 부분으로 2:8 분할 */
+.homepage__nav{
+    flex: 0.2;
+}
+.homepage__timeline{
+    flex: 0.8;
+}
